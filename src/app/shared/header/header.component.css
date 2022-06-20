@@ -18,9 +18,10 @@ header .navbar-links {
   display: block;
   padding: 0;
   margin: 0;
+  font-size: 1.6rem;
   list-style: none;
 }
 header .navbar-links li {
   display: inline;
-  margin-right: 15px;
+  margin-right: 20px;
 }
