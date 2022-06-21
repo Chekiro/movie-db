@@ -92,5 +92,8 @@
       }
     }
   },
-  "defaultProject": "movie-db"
+  "defaultProject": "movie-db",
+  "cli": {
+    "analytics": false
+  }
 }
