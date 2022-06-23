@@ -4,4 +4,9 @@
       <movie-item [itemData]="movie"></movie-item>
     </div>
   </div>
+  <p-paginator
+    [rows]="10"
+    [totalRecords]="5000"
+    (onPageChange)="paginate($event)"
+  ></p-paginator>
 </div>

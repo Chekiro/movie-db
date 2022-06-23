@@ -1,0 +1,40 @@
+:host ::ng-deep .p-tabview-nav {
+  justify-content: center;
+}
+:host ::ng-deep .p-tabview-nav li .p-tabview-nav-link {
+  background-color: #141414;
+}
+.poster {
+  max-width: 100%;
+}
+.overwiew {
+  line-height: 1.5;
+}
+.stat {
+  display: flex;
+  margin-bottom: 15px;
+}
+.stat .label {
+  width: 120px;
+  font-weight: bold;
+}
+.value {
+  color: #64b5f6;
+}
+span {
+  margin-right: 10px;
+}
+
+.actor {
+  padding: 10px;
+}
+
+.actor img {
+  width: 100%;
+}
+
+.name-actor {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}

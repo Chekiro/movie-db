@@ -19,23 +19,19 @@ export class HomeComponent implements OnInit {
     //Upcoming
     this.movieService.getMovies('upcoming').subscribe((movies) => {
       this.upcomingMovies = movies;
-      console.log(this.upcomingMovies);
     });
     // Popular
     this.movieService.getMovies('popular').subscribe((movies) => {
       this.popularMovies = movies;
-      console.log(this.popularMovies);
     });
 
     // Latest
     this.movieService.getMovies('top_rated').subscribe((movies) => {
       this.topRatedMovies = movies;
-      console.log(this.topRatedMovies);
     });
     //Now playing
     this.movieService.getMovies('now_playing').subscribe((movies) => {
       this.nowPlayingMovies = movies;
-      console.log(this.nowPlayingMovies);
     });
   }
 }
